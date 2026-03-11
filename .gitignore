@@ -1,0 +1,79 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+ENV/
+
+# =========================
+# Dataset (large files)
+# =========================
+data/raw/
+data/processed/
+data/sequences/
+
+# =========================
+# Numpy generated files
+# =========================
+*.npy
+
+# =========================
+# Test scripts (debug files)
+# =========================
+preprocessing/test_landmarks.py
+preprocessing/test_sampler.py
+preprocessing/test_video_read.py
+
+# =========================
+# Ignore extra trained models
+# =========================
+models/best_model.h5
+models/best_model_norm.h5
+models/best_model_bilstm.h5
+models/best_model_attention.h5
+
+models/final_model.h5
+models/final_model_norm.h5
+models/final_model_bilstm.h5
+models/final_model_attention.h5
+models/final_model_attention_improved.h5
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Jupyter checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+*.bak
