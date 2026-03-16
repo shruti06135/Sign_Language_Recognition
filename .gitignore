@@ -32,6 +32,9 @@ data/sequences/
 preprocessing/test_landmarks.py
 preprocessing/test_sampler.py
 preprocessing/test_video_read.py
+backend/check_sequence_label.py
+backend/find_house_indices.py
+backend/debug_house_from_dataset.py 
 
 # =========================
 # Ignore extra trained models
